@@ -2,7 +2,7 @@
 
 Welcome to this Bash Script Repository! This collection of scripts is designed to simplify and enhance your command-line experience. Whether you're a seasoned developer or a Linux enthusiast, these scripts cover a variety of tasks to streamline your workflow.
 
-## Features
+## Features:
 
 - **Diverse Functionality:** From automating common tasks to optimizing system performance, our repository offers a wide range of Bash scripts to suit various needs.
 
@@ -38,4 +38,14 @@ git clone https://github.com/King-Kingah/Shell-Scripts.git
 
 ## Contributions:
 
-Contributions are welcome from the community. If you have a helpful script or an improvement to an existing one, please follow our contribution guidelines.
+Contributions are welcome from the community. If you have a helpful script or an improvement to an existing one, please follow our [contribution guidelines](https://{path}CONTRIBUTING.md).
+
+
+
+## License:
+
+This repository is licensed under the [MIT License](https://{path}/LICENSE), ensuring that you have the freedom to use, modify, and share the scripts.
+
+
+
+Hopefully these Bash scripts prove valuable in simplifying your daily tasks. Happy scripting!
