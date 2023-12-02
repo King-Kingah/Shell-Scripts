@@ -9,3 +9,29 @@ Welcome to this Bash Script Repository! This collection of scripts is designed t
 - **User-Friendly:** Each script comes with clear documentation and usage instructions, making it easy for users of all skill levels to leverage the power of the command line.
 
 - **Contribution Friendly:** Feel free to contribute your own scripts or improve existing ones. We welcome collaboration and value the community's input.
+
+
+
+## Getting Started:
+
+1. Clone the repository to your local machine.
+
+```
+git clone https://github.com/King-Kingah/Shell-Scripts.git
+```
+
+2. Explore the different scripts in the parent directory and sub-directories to find scripts that match your requirements.
+
+3. Review the documentation provided within each script for usage details.
+
+4. Make the script of interest executable:
+   
+   `chmod +x script_name`
+
+5. Execute the scripts and enjoy the efficiency they bring to your workflow!
+   
+   Example:
+   
+   `./zsh-corrupt-history-fix.sh`
+   
+   
