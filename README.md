@@ -33,5 +33,9 @@ git clone https://github.com/King-Kingah/Shell-Scripts.git
    Example:
    
    `./zsh-corrupt-history-fix.sh`
-   
-   
+
+
+
+## Contributions:
+
+Contributions are welcome from the community. If you have a helpful script or an improvement to an existing one, please follow our contribution guidelines.
