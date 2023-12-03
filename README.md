@@ -44,7 +44,7 @@ Contributions are welcome from the community. If you have a helpful script or an
 
 ## License:
 
-This repository is licensed under the [MIT License](https://{path}/LICENSE), ensuring that you have the freedom to use, modify, and share the scripts.
+This repository is licensed under the [MIT License](https://github.com/King-Kingah/Shell-Scripts/blob/main/LICENSE.md), ensuring that you have the freedom to use, modify, and share the scripts.
 
 
 
