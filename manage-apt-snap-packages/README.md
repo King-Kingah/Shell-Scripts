@@ -27,10 +27,15 @@ chmod +x upgrade_clean.sh
 sudo ./upgrade_clean.sh
 ```
 Once it completes, a lovely notification pops up with the message below:
+
 ![alt text](images/sparkling-clean.png)
 
+
+## Important Note:
+The script assumes that you have the necessary permissions to run `sudo` commands and that the **notify-send** command is available on your system for displaying notifications. Additionally, it's important to be cautious when removing Snap packages, as it might affect the functionality of installed applications. Always review the script and understand its implications before running it.
+
 ## Use Cases:
-**Currently, this bash script for Debian based operating systems and has been particularly used and tested on Ubuntu 20.04.3 LTS**
+**Currently, this bash script for Debian based operating systems and has been particularly used and tested on Ubuntu 20.04.3 LTS and Ubuntu 22.04.3 LTS**
 
 - Update and upgrade the system with ease.
 - Clean and unclutter the system.
