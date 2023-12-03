@@ -1,14 +1,13 @@
 # auto-update_clean
-Are you tired of always running more that three different commands on the terminal to update, upgrade and clean
-you linux/debian apt packages? Here is a simple solution that does the update, upgrade, unclutter and more
-using a single command.
+Are you tired of always running more that three different commands on the terminal to update, upgrade and clean your linux/debian repositories and packages? Here is a simple solution that does the update, upgrade, unclutter and more using a single command.
 
 ## Purpose:
-- Get system update.
-- Upgrade the system.
-- Remove and clean apt packages that were automatically installed because some other packages required them, but were eventually removed.
-- Cleans out cache accumulated after installing packages using `apt-get install`
-- Removes older versions of snaps.
+- Update the local package list, fetching information about available package updates from the repositories.
+- Upgrade all installed packages to their latest versions.
+- Remove packages that were automatically installed to satisfy dependencies for other packages but are no longer needed.
+- Clean up the local repository of retrieved package files, freeing up disk space.
+- The script then removes old revisions of Snap packages. It uses the `snap list --all` command to list all installed Snap packages, filters out disabled ones, and extracts the Snap name and revision. It then iterates through each disabled Snap package and removes it with the specified revision.
+- Finally, notify-send **"System Updated-> Upgraded-> Cleaned!!"** is a desktop notification that informs the user that the system has been updated, upgraded, and cleaned.
 
 ## Usage:
 1. Clone the repository:
